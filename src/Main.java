@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Знвчение переменной с c типом short равно" + c);
         System.out.println("Значение переменной d с типом long равно" + d);
 
-        System.out.println();
+        // zadacha 2
         byte l = 23;
         byte a1 = 27;
         byte e = 30;
@@ -20,7 +20,7 @@ public class Main {
         int all = paper / (l + a + e);
         System.out.printf("На каждого ученика рассчитано" + all + "листов");
 
-        System.out.println();
+        // zadacha 3
         var bottleForMin = 16 / 2;
         var bottleFor20 = bottleForMin * 20;
         var bottleForDay = bottleForMin * 24 * 60;
@@ -31,14 +31,14 @@ public class Main {
         System.out.println("За три дня машина производит" + bottleForThree + "бутылок");
         System.out.println("За месяц машина производит" + bottleForM + "бутылок");
 
-        System.out.println();
+        // zadacha 4
         int all1 = 120;
         int w = 2;
         int b1 = 4;
         float cclass =all1 / (w + b1);
         System.out.println("В школе где" + cclass +"нужно" + w * cclass +"банок белой" + b1 * cclass +"коричневой краски");
 
-        System.out.println();
+        // zadacha 6
         var banana = 80;
         var milk100 = 105;
         var icec = 100;
@@ -47,7 +47,7 @@ public class Main {
         var all2 = needs / 1000;
         System.out.println(all);
 
-        System.out.println();
+        // zadacha 7
         var need = 7;
         var gramskg = 1000;
         var needToLoose = need * gramskg;
@@ -60,7 +60,7 @@ public class Main {
         System.out.println("max" + maxd);
         System.out.println("totall" + total);
 
-        System.out.println();
+        // zadacha 8
         int masha = 67_760;
         int denis = 83_690;
         int kristina = 76_230;
