@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println();
+        // ( я совместил 1 и 2 задачу)
         int a = 569;
         byte b = 67;
         short c = -159;
