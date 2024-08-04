@@ -7,10 +7,10 @@ public class Main {
         short c1 = 27897;
         long d = 987678965549L;
         float fff = 2.786f;
-        System.out.println("Значение переменной а с типом int равно" + a);
-        System.out.println("Значение переменной b c типом byte равно" + b);
-        System.out.println("Знвчение переменной с c типом short равно" + c);
-        System.out.println("Значение переменной d с типом long равно" + d);
+        System.out.println("Значение переменной а с типом int равно " + a);
+        System.out.println("Значение переменной b c типом byte равно " + b);
+        System.out.println("Знвчение переменной с c типом short равно " + c);
+        System.out.println("Значение переменной d с типом long равно " + d);
 
         // zadacha 2
         byte l = 23;
@@ -26,17 +26,17 @@ public class Main {
         var bottleForDay = bottleForMin * 24 * 60;
         var bottleForThree = bottleForDay * 3;
         var bottleForM = bottleForDay * 30;
-        System.out.println("За 20 минут машина производит" + bottleFor20 + "бутылок");
-        System.out.println("За день машина производит" + bottleForDay + "бутылок");
-        System.out.println("За три дня машина производит" + bottleForThree + "бутылок");
-        System.out.println("За месяц машина производит" + bottleForM + "бутылок");
+        System.out.println("За 20 минут машина производит " + bottleFor20 + " бутылок");
+        System.out.println("За день машина производит " + bottleForDay + " бутылок");
+        System.out.println("За три дня машина производит " + bottleForThree + " бутылок");
+        System.out.println("За месяц машина производит " + bottleForM + " бутылок");
 
         // zadacha 4
         int all1 = 120;
         int w = 2;
         int b1 = 4;
         float cclass =all1 / (w + b1);
-        System.out.println("В школе где" + cclass +"нужно" + w * cclass +"банок белой" + b1 * cclass +"коричневой краски");
+        System.out.println("В школе где " + cclass +"нужно " + w * cclass +"банок белой " + b1 * cclass +" коричневой краски");
 
         // zadacha 6
         var banana = 80;
@@ -72,8 +72,8 @@ public class Main {
         int mashaTotal = masha1 - masha * 12;
         int deinsTotal = denis2 - denis * 12;
         int kristinaTotal = kristina2 - kristina * 12;
-        System.out.println("Маша теперь получает" + masha1 +"доход вырос на" + mashaTotal);
-        System.out.println("Денис теперь получает" + denis2 + "доход вырос на" + deinsTotal);
-        System.out.println("Кристина теперь получает" + kristina2 + "доход вырос на" + kristinaTotal);
+        System.out.println("Маша теперь получает " + masha1 +" доход вырос на" + mashaTotal);
+        System.out.println("Денис теперь получает " + denis2 + " доход вырос на" + deinsTotal);
+        System.out.println("Кристина теперь получает " + kristina2 + " доход вырос на" + kristinaTotal);
     }
 }
